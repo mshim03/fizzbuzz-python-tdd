@@ -1,4 +1,7 @@
 {
+    "[python]": {
+        "editor.defaultFormatter": null
+    },
     "python.testing.pytestArgs": [
         "tests"
     ],
