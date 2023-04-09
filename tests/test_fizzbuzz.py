@@ -78,7 +78,7 @@ class TestPrintRange:
                 mocker.call(3),
                 mocker.call(4),
                 mocker.call(5),
-             ]
+            ]
         )
         # m.assert_has_calls(
         #     [mocker.call(i) for i in range(1, 101)]

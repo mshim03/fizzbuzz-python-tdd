@@ -12,5 +12,5 @@ class FizzBuzz:
         print(self.convert(input))
 
     def print_fizzbuzz_range(self, input: int):
-        for i in range(1, input+1):
+        for i in range(1, input + 1):
             self.print_fizzbuzz(i)
