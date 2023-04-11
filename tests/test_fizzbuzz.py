@@ -66,6 +66,11 @@ class TestPrintedStr:
         captured_pritned = capsys.readouterr()
         assert captured_pritned.out == f"{fizzbuzz.convert(5)}\n"
 
+    def test_PrintedNum(self, fizzbuzz, capsys):
+        fizzbuzz.print_fizzbuzz(1)
+        captured_pritned = capsys.readouterr()
+        assert captured_pritned.out == f"{fizzbuzz.convert(1)}\n"
+
 
 class TestPrintRange:
     def test_PrintedFizzBuzzRange(self, fizzbuzz, mocker):
